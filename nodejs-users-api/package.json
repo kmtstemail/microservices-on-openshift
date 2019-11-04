@@ -1,6 +1,14 @@
 {
   "name": "nodejs-users-api",
   "main": "server.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
   "dependencies": {
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
